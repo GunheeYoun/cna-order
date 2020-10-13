@@ -30,7 +30,7 @@ public class PolicyHandler{
             order.setStatus(shipped.getStatus());
 
             orderRepository.save(order);
-            //System.out.println("##### listener UpdateStatus : " + shipped.toJson());
+            System.out.println("##### listener UpdateStatus : " + shipped.toJson());
         }
     }
 }
